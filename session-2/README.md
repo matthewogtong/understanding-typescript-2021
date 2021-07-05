@@ -17,3 +17,11 @@
 ## Key Points
 
 * JavaScript uses "dynamic types" (resolved at runtime), TypeScript uses "static types" (set during development).
+
+* Core Primitive Types in TypeScript are all lowercase.
+
+## Miscellaneous Notes
+
+* In JavaScript and TypeScript, all numbers are floats by default.
+    * No difference between 5 || 5.0
+
