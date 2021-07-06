@@ -14,6 +14,10 @@
     * true, false
     * Just these two, no "truthy" or "falsy" values
 
+* object
+    * {age: 30}
+    * Any JavaScript object, more specific types(type of object) are possible
+
 ## Key Points
 
 * JavaScript uses "dynamic types" (resolved at runtime), TypeScript uses "static types" (set during development).
