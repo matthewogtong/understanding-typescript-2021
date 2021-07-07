@@ -18,6 +18,10 @@
     * {age: 30}
     * Any JavaScript object, more specific types(type of object) are possible
 
+* Array 
+    * [1, 2, 3]
+    * Any JavaScript array, type can be flexible or strict(regarding the element types)
+
 ## Key Points
 
 * JavaScript uses "dynamic types" (resolved at runtime), TypeScript uses "static types" (set during development).
