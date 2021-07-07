@@ -35,3 +35,29 @@
     * Infers which type you have in a variable or constant
 
 * Core task of TypeScript is to check types and yell at us if we're using it incorrectly
+
+* Object types can also be created for nested objects. 
+```javascript
+const product = {
+  id: 'abc1',
+  price: 12.99,
+  tags: ['great-offer', 'hot-and-new'],
+  details: {
+    title: 'Red Carpet',
+    description: 'A great carpet - almost brand-new!'
+  }
+}
+
+//This is the type of object 
+
+{
+  id: string;
+  price: number;
+  tags: string[];
+  details: {
+    title: string;
+    description: string;
+  }
+}
+```
+

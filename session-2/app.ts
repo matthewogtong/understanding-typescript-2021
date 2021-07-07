@@ -1,9 +1,11 @@
-const person: {
-    name: string;
-    age: number;
-} = {
-    name: "Matthew",
-    age: 30
-}
+// const person: {
+//     name: string;
+//     age: number;
+// } = {}
 
-console.log(person.name)
+const person = {
+  name: "Matthew",
+  age: 30,
+};
+
+console.log(person.name);
