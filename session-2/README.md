@@ -4,7 +4,7 @@
 
 * number 
     * 1, 5.3, -10 
-    * All numbers, no differentation between integers or floats
+    * All numbers, no difference between integers or floats
 
 * string
     * 'Hi', "Hi", `Hi`
