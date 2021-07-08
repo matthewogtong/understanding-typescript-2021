@@ -1,4 +1,4 @@
-# Session 2
+# Session 2 Notes
 
 ## Core Types
 
@@ -31,6 +31,13 @@
 * Enum
     * enum { NEW, OLD }
     * Added by TypeScript: Automatically enumerated global constant identifiers
+
+* Any
+    * *
+    * Any kind of value, no specific type assignment
+    * TypeScript well never yell at you when you use this type
+    * Basically vanilla
+    * Avoid when possible, use as a last resort 
 
 ## Key Points
 
