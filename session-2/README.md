@@ -22,6 +22,12 @@
     * [1, 2, 3]
     * Any JavaScript array, type can be flexible or strict(regarding the element types)
 
+* Tuple 
+    * [1, 2]
+    * Added by TypeScript: Fixed-length array
+    * Pushing is an exception 
+    * Situational when you use over an object, if you want to be even clearer
+
 ## Key Points
 
 * JavaScript uses "dynamic types" (resolved at runtime), TypeScript uses "static types" (set during development).
