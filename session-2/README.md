@@ -28,6 +28,10 @@
     * Pushing is an exception 
     * Situational when you use over an object, if you want to be even clearer
 
+* Enum
+    * enum { NEW, OLD }
+    * Added by TypeScript: Automatically enumerated global constant identifiers
+
 ## Key Points
 
 * JavaScript uses "dynamic types" (resolved at runtime), TypeScript uses "static types" (set during development).
