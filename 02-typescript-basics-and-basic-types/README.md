@@ -58,6 +58,7 @@
 * Core task of TypeScript is to check types and yell at us if we're using it incorrectly
 
 * Object types can also be created for nested objects. 
+
 ```javascript
 const product = {
   id: 'abc1',
