@@ -3,7 +3,7 @@
 function combine(
   input1: number | string,
   input2: number | string,
-  resultConversion: 'as-number' | 'as-text'
+  resultConversion: "as-number" | "as-text"
 ) {
   let result;
   if (
@@ -18,8 +18,8 @@ function combine(
   return result;
 }
 
-const combinedAges = combine(30, 26, 'as-number');
+const combinedAges = combine(30, 26, "as-number");
 console.log(combinedAges);
 
-const combinedNames = combine("Max", "Anna", 'as-text');
+const combinedNames = combine("Max", "Anna", "as-text");
 console.log(combinedNames);
